@@ -4,8 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --host 0.0.0.0 --disable-host-check",
-    "start-no-reload": "ng serve --live-reload false",
+    "start": "ng serve  --public-host=0.0.0.0/dKGb34Ncfw1564066_op/sockjs-node --host 0.0.0.0 --port 4200 --disable-host-check",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
